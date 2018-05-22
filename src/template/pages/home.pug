@@ -1,0 +1,10 @@
+extends ../extend/default
+
+block variables
+    - var title = 'Home page';
+
+block main
+    main.content(data-page='home')
+        .intro-wrapper
+            .canvas-wrapper(data-images="static/img/slide-8.jpg,static/img/slide-12.jpg,static/img/slide-3.jpg,static/img/slide-2.jpg,static/img/slide-4.jpg", data-shapes-quantity='8')
+        .some-wrapper
